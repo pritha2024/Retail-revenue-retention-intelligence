@@ -1,0 +1,5 @@
+# Force GitHub Linguist to classify notebooks as Python for language stats
+*.ipynb linguist-language=Python
+
+# Ensure SQL files are counted as SQL
+*.sql linguist-language=SQL
