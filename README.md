@@ -26,22 +26,6 @@ A retail business wants to answer:
 
 ---
 
-## 🧭 Project Workflow (Pipeline)
-
-```mermaid
-flowchart LR
-  A[Raw OnlineRetail.csv] --> B[Notebook 01: Data Audit]
-  B --> C[Notebook 02: Cleaning + Feature Engineering]
-  C --> D1[transactions_cleaned.csv<br/>(valid sales lines)]
-  C --> D2[customer_rfm.csv<br/>(identified customers only)]
-  D1 --> E[SQL in SQLite<br/>(business questions)]
-  D2 --> F[Notebook 03: Churn Proxy Modeling<br/>RF + XGBoost]
-  E --> G[Power BI Dashboard]
-  F --> G
-  G --> H[Reports / PDF Summary]
-```
-
----
 
 ## ✅ Key Cleaning Rules (Important)
 ### Transaction-level analysis (revenue, products, countries)
