@@ -71,7 +71,7 @@ Use **identified + valid sales** only:
 - `reports/OnlineRetail_Business_Problem.pdf`  
   One-page problem framing.
 
-- `powerbi/customer_behaviour_dashboard`  
+- `powerbi/customer_behavior_dashboard`  
   Final dashboard.
 
 ---
@@ -147,7 +147,7 @@ Open and run:
 - Run queries from: `sql/customer_behavior_sql_queries.sql`
 
 ### 4) Power BI
-- Open `powerbi/customer_behaviour_dashboard.pbix`
+- Open `powerbi/customer_behavior_dashboard.pbix`
 - Export dashboard screenshots + include in report
 
 ---
